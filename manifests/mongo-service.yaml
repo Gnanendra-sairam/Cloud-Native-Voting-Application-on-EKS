@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: mongo
-  namespace: cloudchamp
+  namespace: sairam
   labels:
     role: db
     env: demo
