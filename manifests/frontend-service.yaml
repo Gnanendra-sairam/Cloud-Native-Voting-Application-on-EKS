@@ -5,10 +5,10 @@ kind: Service
 metadata:
   name: frontend
   labels:
-    app: frontend
+    role: frontend
 spec:
   selector:
-    app: frontend
+    role: frontend
   ports:
     - protocol: TCP
       port: 80
